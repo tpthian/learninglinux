@@ -1,3 +1,3 @@
 # About page
 
-This is just an about testing page
+This is the page to learn linux step by step
