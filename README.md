@@ -48,4 +48,12 @@
 # start installing oh-my-zsh
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 
+# edit .zshrc
+~ vi .zshrc 
+
+# type the remapping command
+~ setxkbmap -option "ctrl:nocaps" # then :wq to save and quit vim
+~ source .zshrc
 ```
+
+
