@@ -31,6 +31,18 @@ tcl-1:8.5.13-8.el7.x86_64
 
 ```bash
 sudo vi /etc/httpd/conf.d/php.conf
+
+# create new
+
+<FilesMatch \.php$>
+    SetHandler "proxy:fcgi://127.0.0.1:9000"
+</FilesMatch>
+AddType text/html .php
+DirectoryIndex index.php
+#php_value session.save_handler "files"
+#php_value session.save_path
+"/var/opt/remi/php71/lib/php/session"
+
 ```
 
 [3]. Start PHP-FPM

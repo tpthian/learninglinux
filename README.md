@@ -68,3 +68,5 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 ## [7. Configure httpd](./webserver/httpd)
 
 ## [8. Configure PHP](./lang/php)
+
+## [9. Configure MySQL 5.7](./db/mysql57)
