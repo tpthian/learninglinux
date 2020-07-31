@@ -7,7 +7,8 @@
 > sudo yum -y update && sudo yum -y upgrade
 ```
 
-## 1.1 Remap Capslock to Ctrl
+## 2. Remap Capslock to Ctrl
+
 ```bash
 # either in .bashrc or .zshrc
 > vi .bashrc
@@ -18,16 +19,19 @@
 > source .bashrc # or .zshrc
 ```
 
-## 2. Configure common settings
+## 3. Configure common settings
+
 ```bash
 # install dnf
-> sudo yum -y install dnf
+~ sudo yum -y install dnf
 
 # Logout and login 
 > gnome-session-quit
 ```
 
-## [2. Configure repository](./system/repos)
+## [4. Configure repository](./system/repos)
+
+Then, we can install `ntfs-3g` to mount NTFS filesystem.
 
 ```bash
 
@@ -37,7 +41,8 @@
 
 ```
 
-## 2. Change to zsh shell
+## 5. Change to zsh shell
+
 ```bash
 > sudo dnf -y install zsh
 > sudo chsh -s /bin/zsh [user]
@@ -58,8 +63,8 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 ~ source .zshrc
 ```
 
-## [3. Add `menuentry` for Windows 7](./system/menuentry)
+## [6. Add `menuentry` for Windows 7](./system/menuentry)
 
-## [4. Configure httpd](./webserver/httpd)
+## [7. Configure httpd](./webserver/httpd)
 
-## [5. Configure PHP](./lang/php)
+## [8. Configure PHP](./lang/php)
