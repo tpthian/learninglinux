@@ -1,3 +1,5 @@
+[\[back\]](../)
+
 # Configuring repos
 
 [1]. Configuring

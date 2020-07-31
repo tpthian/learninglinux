@@ -1,4 +1,4 @@
-[\[back\]](../..)
+[\[back\]](../)
 # Add menuentry
 
 ```bash
