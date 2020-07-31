@@ -25,12 +25,11 @@
 
 # Logout and login 
 > gnome-session-quit
+```
 
-# Install repositories
-> sudo dnf -y install yum-plugin-priorities 
-> sudo dnf -y install epel-release 
-> sudo dnf -y install centos-release-scl-rh centos-release-scl 
-> sudo dnf -y install http://rpms.famillecollet.com/enterprise/remi-release-7.rpm 
+## [2. Configure repository](./system/repos)
+
+```bash
 
 # install `ntfs-3g`
 ~ sudo dnf -y install epel-release
@@ -59,6 +58,8 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 ~ source .zshrc
 ```
 
-## [3. Add `menuentry` for Windows 7](./menuentry)
+## [3. Add `menuentry` for Windows 7](./system/menuentry)
 
-## [4. Configure httpd](./httpd)
+## [4. Configure httpd](./webserver/httpd)
+
+## [5. Configure PHP](./lang/php)
