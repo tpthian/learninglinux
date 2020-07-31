@@ -15,6 +15,6 @@
 AllowOverride All
 
 # line 164
-DirectoryIndex index.html <span color="green">index.cgi index.php</span>
+DirectoryIndex index.html index.cgi index.php
 
 ```
