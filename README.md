@@ -27,12 +27,15 @@
 > gnome-session-quit
 
 # Install repositories
-> sudo yum -y install yum-plugin-priorities 
-> sudo yum -y install epel-release 
-> sudo yum -y install centos-release-scl-rh centos-release-scl 
-> sudo yum -y install http://rpms.famillecollet.com/enterprise/remi-release-7.rpm 
+> sudo dnf -y install yum-plugin-priorities 
+> sudo dnf -y install epel-release 
+> sudo dnf -y install centos-release-scl-rh centos-release-scl 
+> sudo dnf -y install http://rpms.famillecollet.com/enterprise/remi-release-7.rpm 
 
-# install vim-enhanced
+# install `ntfs-3g`
+~ sudo dnf -y install epel-release
+~ sudo dnf -y install ntfs-3g
+
 ```
 
 ## 2. Change to zsh shell
@@ -56,4 +59,4 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 ~ source .zshrc
 ```
 
-## [3. Add `{bash} menuentry` for Windows 7](./menuentry)
+## [3. Add `menuentry` for Windows 7](./menuentry)

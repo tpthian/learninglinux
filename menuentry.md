@@ -26,7 +26,7 @@ Password:
 > vim /etc/grub.d/40_custom
 ```
 
-From the `{bash} fdisk -l` above we know that Windows 7 are located on `/dev/sda2` hence the partition will be `hd0,1` with a = 0, 2 = 1 or first disk, 2nd partition. 
+From the `fdisk -l` above we know that Windows 7 are located on `/dev/sda2` hence the partition will be `hd0,1` with a = 0, 2 = 1 or first disk, 2nd partition. 
 
 ```bash
 #!/bin/sh
