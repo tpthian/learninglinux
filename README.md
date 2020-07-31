@@ -60,3 +60,5 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 ```
 
 ## [3. Add `menuentry` for Windows 7](./menuentry)
+
+## [4. Configure httpd](./httpd)
