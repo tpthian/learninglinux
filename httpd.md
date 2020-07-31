@@ -7,6 +7,7 @@
 ```
 
 2. Configure httpd.
+
 ```bash
 ~ sudo vi /etc/httpd/conf/httpd.conf
 
@@ -15,4 +16,5 @@ AllowOverride All
 
 # line 164
 DirectoryIndex index.html <span color="green">index.cgi index.php</span>
+
 ```
