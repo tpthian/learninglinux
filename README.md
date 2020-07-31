@@ -56,4 +56,4 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 ~ source .zshrc
 ```
 
-
+## [3. Add `{bash} menuentry` for Windows 7](./menuentry)
