@@ -1,5 +1,5 @@
 layout: page
 title: "PHP installation"
-permalink: /server/php.md
+permalink: /server/php
 
 # PHP INSTALLATION
