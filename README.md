@@ -3,7 +3,7 @@
 #### Fri, 31st July, 2020
 
 ## 1. Update & upgrade
-```
+```bash
 > sudo yum -y update && sudo yum -y upgrade
 ```
 
@@ -19,7 +19,7 @@
 ```
 
 ## 2. Configure common settings
-```
+```bash
 # install dnf
 > sudo yum -y install dnf
 
@@ -36,7 +36,7 @@
 ```
 
 ## 2. Change to zsh shell
-```
+```bash
 > sudo dnf -y install zsh
 > sudo chsh -s /bin/zsh [user]
 > gnome-session-quit
@@ -52,8 +52,8 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 > vi .zshrc 
 
 # type the remapping command
-> setxkbmap -option "ctrl:nocaps" # then :wq to save and quit vim
-> source .zshrc
+~ setxkbmap -option "ctrl:nocaps" # then :wq to save and quit vim
+~ source .zshrc
 ```
 
 
